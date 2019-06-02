@@ -1,0 +1,6 @@
+Cython
+Pillow
+tensorflow-gpu
+scipy
+pycocotools
+matplotlib
