@@ -78,8 +78,6 @@ $ tar -xvf ssd_mobilenet_v2_coco_2018_03_29.tar.gz
 
 Change the number of classes in the pipeline.config associated with your model to 196 to match the number of classes in Stanford Cars. Also update the paths to your fine tune checkpoint and labels file for both train and eval. 
 
-:exclamation: You will have to remove any references to "batch_norm_trainable: true" from the pipeline.config file. This feature has been deprecated and will prevent successful training.
-
 :grey_question: Depending on your GPU memory size, you may have to reduce the train_config.batch_size. A batch size of 24 works on an 8GB GTX 1070/1080.
 
 Items to modify in the pipeline.config:
@@ -104,16 +102,16 @@ $ python <TensorFlow models folder>/research/object_detection/model_main.py --pi
 ### Convert the checkpoint to frozen graph (.pb file)
 
 ```
-$ python -u <TensorFlow models folder>/research/object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=./models/ssd_mobilenet_v2_coco_2018_03_29/pipeline.config --trained_checkpoint_prefix=output/model.ckpt-100000 --output_directory=./stanford_cars_inference_graph/
+$ python <TensorFlow models folder>/research/object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=output/pipeline.config --trained_checkpoint_prefix=output/model.ckpt-100000 --output_directory=ouput
 ```
 
 ### Prediction on an example image
 
 ```
-$ python predict_image.py --model stanford_cars_inference_graph/frozen_inference_graph.pb --labels stanford_cars_labels_map.pbtxt --image image0.jpg 
+$ python predict_image.py --model output/frozen_inference_graph.pb --labels stanford_cars_labels_map.pbtxt --image xxxxx.jpg 
 ```
 
-Here are a few example vehicles images taken from the Cars dataset with detection boxes.
+Here is example result with detection.
 
 ![Dodge Ram Pickup 3500](006986.jpg)
 
