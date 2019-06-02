@@ -40,7 +40,6 @@ The labels file (cars_annos.mat) needs to be in the same folder as the extracted
 	|         |--- <images>
 	|--- ...
 
-```
 
 Be sure to also clone the TensorFlow models github repository to some other folder directory. We will refer to this location as the <TensorFlow models folder> which should be different than the local 'models' folder.
 
@@ -99,7 +98,7 @@ Use TensorFlow's model_main.py to train the model. This is TensorFlow's "easy" b
 This command uses the command line PYTHONPATH as opposed to exporting the variable. If you already exported the PYTHONPATH, you can ignore that portion.
 
 ```
-$ python <TensorFlow models folder>/research/object_detection/model_main.py --pipeline_config_path=./models/ssd_mobilenet_v2_coco_2018_03_29/pipeline.config --model_dir=output --num_train_steps=100000 --num_eval_steps=100
+$ python <TensorFlow models folder>/research/object_detection/model_main.py --pipeline_config_path=ssd_mobilenet_v2_coco.config --model_dir=output --num_train_steps=100000 --num_eval_steps=100
 ```
 
 ### Convert the checkpoint to frozen graph (.pb file)
@@ -108,12 +107,7 @@ $ python <TensorFlow models folder>/research/object_detection/model_main.py --pi
 $ python -u <TensorFlow models folder>/research/object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=./models/ssd_mobilenet_v2_coco_2018_03_29/pipeline.config --trained_checkpoint_prefix=output/model.ckpt-100000 --output_directory=./stanford_cars_inference_graph/
 ```
 
-## Evaluation
-
-There's no eval.py script in the new version of the Object Detection API. So we will convert the checkpoint to a pb file and run prediction on a few example images just to get a visual indication of how well it is doing.
-
 ### Prediction on an example image
-
 
 ```
 $ python predict_image.py --model stanford_cars_inference_graph/frozen_inference_graph.pb --labels stanford_cars_labels_map.pbtxt --image image0.jpg 
@@ -121,7 +115,7 @@ $ python predict_image.py --model stanford_cars_inference_graph/frozen_inference
 
 Here are a few example vehicles images taken from the Cars dataset with detection boxes.
 
-![Dodge Ram Pickup 3500](results/006986.jpg)
+![Dodge Ram Pickup 3500](006986.jpg)
 
 ## References
 
