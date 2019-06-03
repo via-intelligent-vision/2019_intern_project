@@ -12,7 +12,8 @@ This project is heavily dependent on the TensorFlow Object Detection API and all
 * Tensorflow (>=1.11.0)
 * TensorFlow models and examples repository
 
-Since the code is used with Tensorflow Object detection API, For a complete list, please refer in detail as Tensorflow TensorFlow Object Detection API installation instructions.
+Since the code is used with Tensorflow Object detection API, For a complete list, please refer in detail as Tensorflow Object Detection API installation instructions.
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
 
 ## Getting Started
 
@@ -68,7 +69,7 @@ $ python create_tf_record.py --data_dir=<data folder> --set=test --output_path=s
 
 ### Download pretrained model
 
-Download a pretrained model from the tensorflow model zoo and untar to your tf_oda_stanford_cars/models folder. Here sample is used SSD MobileNet v2 for this project.
+Download a pretrained model from the tensorflow model zoo and untar to your folder. Here sample is used SSD MobileNet v2 for this project.
 
 ```
 $ tar -xvf ssd_mobilenet_v2_coco_2018_03_29.tar.gz
