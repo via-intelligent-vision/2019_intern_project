@@ -1,0 +1,11 @@
+Tuesday, June 11th
+
+Accomplished:
+- Successfully installed TensorFlow
+- Downloaded dataset images
+- Walked through "Sample Baseline code for TensorFlow Object Detection API for Stanford Cars"
+- Read a lot of computer vision articles
+
+Need to Accomplish:
+- Learn how to draw bounding boxes
+- Try different models on the Stanford cars dataset
