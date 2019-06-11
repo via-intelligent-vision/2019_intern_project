@@ -12,8 +12,9 @@ This project is heavily dependent on the TensorFlow Object Detection API and all
 * Tensorflow (>=1.11.0)
 * TensorFlow models and examples repository
 
-Since the code is used with Tensorflow Object detection API, For a complete list, please refer in detail as Tensorflow Object Detection API installation instructions.
-https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+> Since the code is used with Tensorflow Object detection API, For a complete list, please refer in detail as Tensorflow Object Detection API installation instructions. https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+
+> If you are not familiar with how to steup about tensorlow wth GPU environment. You can refer as link as "[How to install TensorFlow 1.13 with GPU support on Ubuntu 18.04 LTS + CUDA 10.0](https://medium.com/@cjanze/how-to-install-tensorflow-with-gpu-support-on-ubuntu-18-04-lts-with-cuda-10-nvidia-gpu-312a693744b5)".
 
 ## Getting Started
 
