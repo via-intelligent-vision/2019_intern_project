@@ -4,8 +4,28 @@ Accomplished:
 - Successfully installed TensorFlow
 - Downloaded dataset images
 - Walked through "Sample Baseline code for TensorFlow Object Detection API for Stanford Cars"
-- Read a lot of computer vision articles
+- Created an individual TFRecord
 
 Need to Accomplish:
 - Learn how to draw bounding boxes
 - Try different models on the Stanford cars dataset
+
+Wednesday, June 12th
+
+Accomplished:
+- Drew bounding boxes and contour maps for a few individual images
+- Tested sliding window algorithm
+
+Need to Accomplish:
+- Create TFRecords for the entire dataset
+- Identify best-fit bounding box
+- Calculate accuracy and confidence level
+
+Thursday, June 13th
+
+Accomplished:
+- Parsed csv and separated training and testing images
+- Create TFRecords for all files in database
+
+Need to Accomplish:
+- Run training model and test accuracy
