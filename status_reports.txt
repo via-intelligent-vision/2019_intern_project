@@ -36,5 +36,9 @@ Need to Accomplish:
 Friday, June 14th
 
 Accomplished:
+- Created TFRecords in .record format
+- 
 
 Need to Accomplish:
+- Learn how to use TensorBoard
+- Design new model
