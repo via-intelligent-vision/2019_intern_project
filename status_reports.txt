@@ -29,3 +29,24 @@ Accomplished:
 
 Need to Accomplish:
 - Run training model and test accuracy
+
+Friday, June 14th
+
+Accomplished:
+- Installed open-cv and tested it on the cars dataset
+- Researched mean Average Precision and accuracy metrics
+- Installed pytorch
+
+Need to Accomplish:
+- Run model and test accuracy
+- Properly install Jupyter Notebook
+
+Monday, June 17th
+
+Accomplished:
+- Compiled accuracy checker
+- Showed and explained project and installation process to Casey
+
+Need to Accomplish:
+- Run model and test accuracy
+- Properly install Jupyter Notebook
