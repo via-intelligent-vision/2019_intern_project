@@ -46,9 +46,11 @@ Monday, June 17th
 Accomplished:
 - Compiled accuracy checker
 - Showed and explained project and installation process to Casey
+- Started building training dataset for 30 additional classes
 
 Need to Accomplish:
 - Run model and test accuracy
 - Properly install Jupyter Notebook
 - Create graphs
 - Train and improve model
+- Finish building additional dataset
