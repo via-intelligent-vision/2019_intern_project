@@ -50,3 +50,5 @@ Accomplished:
 Need to Accomplish:
 - Run model and test accuracy
 - Properly install Jupyter Notebook
+- Create graphs
+- Train and improve model
