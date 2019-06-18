@@ -54,3 +54,13 @@ Need to Accomplish:
 - Create graphs
 - Train and improve model
 - Finish building additional dataset
+
+Tuesday, June 18th
+
+Accomplished:
+- Finished building training dataset for 30 2019 models (5 images each)
+- Went through tutorials for building NNs from scratch
+
+Need to Accomplish:
+- Train and test model
+- Create my own model
