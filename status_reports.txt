@@ -69,7 +69,8 @@ Wednesday, June 19th
 
 Accomplished:
 - Used LabelImg to label 150 new images with bounding boxes
-- Training model
+- Trained baseline model
+- Produced csv to train new dataset
 
 Need to Accomplish:
 - Validate model
