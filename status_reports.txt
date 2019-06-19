@@ -64,3 +64,14 @@ Accomplished:
 Need to Accomplish:
 - Train and test model
 - Create my own model
+
+Wednesday, June 19th
+
+Accomplished:
+- Used LabelImg to label 150 new images with bounding boxes
+- Training model
+
+Need to Accomplish:
+- Validate model
+- Calculate accuracy, precision, recall, specificity, AUC, etc.
+- Modify config file to alter model
