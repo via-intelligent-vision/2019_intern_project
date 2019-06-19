@@ -71,8 +71,11 @@ Accomplished:
 - Used LabelImg to label 150 new images with bounding boxes
 - Trained baseline model
 - Produced csv to train new dataset
+- Created testing dataset
+- Produced necessary pbtxt and tfrecord files
+- Tried using model on training images to prove recognition (will try on testing images later)
 
 Need to Accomplish:
-- Validate model
+- Validate model on testing images
 - Calculate accuracy, precision, recall, specificity, AUC, etc.
 - Modify config file to alter model
