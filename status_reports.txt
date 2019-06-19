@@ -24,11 +24,14 @@ Need to Accomplish:
 Thursday, June 13th
 
 Accomplished:
-- Parsed csv and separated training and testing images
-- Create TFRecords for all files in database
+- Parsed csv and image files for TFRecord creation
+- Created TFRecords for the entire dataset
 
 Need to Accomplish:
-- Run training model and test accuracy
+- Store TFRecords in correct format
+- Train different models
+- Test models and measure accuracy
+- Design new model
 
 Friday, June 14th
 
