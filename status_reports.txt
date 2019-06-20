@@ -82,3 +82,15 @@ Need to Accomplish:
 - Validate model on testing images
 - Calculate accuracy, precision, recall, specificity, AUC, etc.
 - Modify config file to alter model
+
+Thursday, June 20th
+
+Accomplished:
+- Compiled new training and validation datasets
+- Used LabelImg to draw bounding boxes and labels for all 210 images
+- Converted xml files to csv files
+
+Need to Accomplish:
+- Run training program on new dataset
+- Compile testing dataset
+- Test and evaluate model
