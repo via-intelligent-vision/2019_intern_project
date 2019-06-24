@@ -36,9 +36,61 @@ Need to Accomplish:
 Friday, June 14th
 
 Accomplished:
-- Created TFRecords in .record format
-- 
+- Installed open-cv and tested it on the cars dataset
+- Researched mean Average Precision and accuracy metrics
+- Installed pytorch
 
 Need to Accomplish:
-- Learn how to use TensorBoard
-- Design new model
+- Run model and test accuracy
+- Properly install Jupyter Notebook
+
+Monday, June 17th
+
+Accomplished:
+- Compiled accuracy checker
+- Showed and explained project and installation process to Casey
+- Started building training dataset for 30 additional classes
+
+Need to Accomplish:
+- Run model and test accuracy
+- Properly install Jupyter Notebook
+- Create graphs
+- Train and improve model
+- Finish building additional dataset
+
+Tuesday, June 18th
+
+Accomplished:
+- Finished building training dataset for 30 2019 models (5 images each)
+- Went through tutorials for building NNs from scratch
+
+Need to Accomplish:
+- Train and test model
+- Create my own model
+
+Wednesday, June 19th
+
+Accomplished:
+- Used LabelImg to label 150 new images with bounding boxes
+- Trained baseline model
+- Produced csv to train new dataset
+- Created testing dataset
+- Produced necessary pbtxt and tfrecord files
+- Tried using model on training images to prove recognition (will try on testing images later)
+
+Need to Accomplish:
+- Validate model on testing images
+- Calculate accuracy, precision, recall, specificity, AUC, etc.
+- Modify config file to alter model
+
+Thursday, June 20th
+
+Accomplished:
+- Compiled new training and validation datasets
+- Used LabelImg to draw bounding boxes and labels for all 210 images
+- Converted xml files to csv files
+
+Need to Accomplish:
+- Run training program on new dataset
+- Compile testing dataset
+- Test and evaluate model
