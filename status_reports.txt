@@ -94,3 +94,15 @@ Need to Accomplish:
 - Run training program on new dataset
 - Compile testing dataset
 - Test and evaluate model
+
+Monday, June 24th
+
+Accomplished:
+- Compiled testing dataset
+- Tried using model on new training dataset, but predictions were inaccurate
+
+Need to Accomplish:
+- Debug pipeline.config
+- Test pretrained model
+- Fix labels in TensorBoard
+- Build our own model
