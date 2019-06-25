@@ -106,3 +106,12 @@ Need to Accomplish:
 - Test pretrained model
 - Fix labels in TensorBoard
 - Build our own model
+
+Tuesday, June 25th
+
+Accomplished:
+- Obtained precision of ~0.02 while training
+
+Need to Accomplish:
+- Find efficient way to build a large dataset for testing
+- Reduce loss to <0.05 and precision to >0.8
