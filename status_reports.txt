@@ -121,8 +121,12 @@ Need to Accomplish:
 Wednesday, June 26th
 
 Accomplished:
-- 
+- Adapted labeling code to draw bounding boxes for our data
+- Ran labeling code on all 30 classes to produce csv rows
+- Merged into new big csv
 
 Need to Accomplish:
-- 
+- Reformat csv
+- Train and validate data
+- Test data
 
