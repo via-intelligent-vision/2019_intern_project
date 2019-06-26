@@ -111,7 +111,18 @@ Tuesday, June 25th
 
 Accomplished:
 - Obtained precision of ~0.02 while training
+- Used shortcut code to create massive datasets for each class
+- Built new github repo to store everything
 
 Need to Accomplish:
-- Find efficient way to build a large dataset for testing
-- Reduce loss to <0.05 and precision to >0.8
+- Find efficient way to draw bounding boxes and label images
+- Reduce loss to <0.5 and precision to >0.8
+
+Wednesday, June 26th
+
+Accomplished:
+- 
+
+Need to Accomplish:
+- 
+
