@@ -135,4 +135,8 @@ Thursday, June 27th
 Accomplished:
 - Cleaned merged csv data into one big file
 - Produced TFRecords
+- Started training
 
+Need to Accomplish:
+- Finish training and analyze results
+- Achieve accuracy > 85%
