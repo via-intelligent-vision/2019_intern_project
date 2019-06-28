@@ -140,3 +140,15 @@ Accomplished:
 Need to Accomplish:
 - Finish training and analyze results
 - Achieve accuracy > 85%
+
+Friday, June 28th
+
+Accomplished:
+- Finished training and testing (2 images per class)
+- Loss at 9, mAP at ~0.25
+- Testing accuracy at ~60%
+
+Need to Accomplish:
+- Add more data
+- Re-train
+- Increase accuracy, precision, and recall
