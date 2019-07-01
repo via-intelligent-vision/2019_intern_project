@@ -152,3 +152,14 @@ Need to Accomplish:
 - Add more data
 - Re-train
 - Increase accuracy, precision, and recall
+
+Monday, July 1st
+
+Accomplished:
+- Extended datasets for five classes
+- Re-trained model
+- Tested faster_rcnn_nas
+
+Need to Accomplish:
+- Try more pre-trained models
+- Develop our own model in Keras or PyTorch
