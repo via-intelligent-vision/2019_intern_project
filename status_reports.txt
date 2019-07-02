@@ -94,3 +94,72 @@ Need to Accomplish:
 - Run training program on new dataset
 - Compile testing dataset
 - Test and evaluate model
+
+Monday, June 24th
+
+Accomplished:
+- Compiled testing dataset
+- Tried using model on new training dataset, but predictions were inaccurate
+
+Need to Accomplish:
+- Debug pipeline.config
+- Test pretrained model
+- Fix labels in TensorBoard
+- Build our own model
+
+Tuesday, June 25th
+
+Accomplished:
+- Obtained precision of ~0.02 while training
+- Used shortcut code to create massive datasets for each class
+- Built new github repo to store everything
+
+Need to Accomplish:
+- Find efficient way to draw bounding boxes and label images
+- Reduce loss to <0.5 and precision to >0.8
+
+Wednesday, June 26th
+
+Accomplished:
+- Adapted labeling code to draw bounding boxes for our data
+- Ran labeling code on all 30 classes to produce csv rows
+
+Need to Accomplish:
+- Merge into new big csv
+- Reformat csv
+- Train and validate data
+- Test data
+
+Thursday, June 27th
+
+Accomplished:
+- Cleaned merged csv data into one big file
+- Produced TFRecords
+- Started training
+
+Need to Accomplish:
+- Finish training and analyze results
+- Achieve accuracy > 85%
+
+Friday, June 28th
+
+Accomplished:
+- Finished training and testing (2 images per class)
+- Loss at 9, mAP at ~0.25
+- Testing accuracy at ~60%
+
+Need to Accomplish:
+- Add more data
+- Re-train
+- Increase accuracy, precision, and recall
+
+Monday, July 1st
+
+Accomplished:
+- Extended datasets for five classes
+- Re-trained model
+- Tested faster_rcnn_nas
+
+Need to Accomplish:
+- Try more pre-trained models
+- Develop our own model in Keras or PyTorch
