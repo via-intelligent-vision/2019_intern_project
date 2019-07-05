@@ -156,10 +156,21 @@ Need to Accomplish:
 Monday, July 1st
 
 Accomplished:
-- Extended datasets for five classes
+- Expanded datasets for five classes
 - Re-trained model
 - Tested faster_rcnn_nas
 
 Need to Accomplish:
 - Try more pre-trained models
 - Develop our own model in Keras or PyTorch
+
+Tuesday-Friday, July 2nd-5th
+
+Accomplished:
+- Expanded all datasets
+- Found more accurate bounding box drawer
+- Labeled and ran code to automatically draw bounding boxes for all images
+- Created TFRecords using 3 different models
+
+Need to Accomplish:
+- Train using 3 different models
