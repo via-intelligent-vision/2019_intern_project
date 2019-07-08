@@ -163,3 +163,27 @@ Accomplished:
 Need to Accomplish:
 - Try more pre-trained models
 - Develop our own model in Keras or PyTorch
+
+Tuesday-Friday, July 2nd-5th
+
+Accomplished:
+- Expanded all datasets
+- Discovered accurate bounding box strategy
+- Ran program to draw bounding boxes for all training images
+- Compiled giant CSV
+- Created TFRecords
+- Trained SSD Resnet50 FPN and Faster RCNN Resnet101
+
+Need to Accomplish:
+- Test trained models on testing data
+- Calculate mAP, accuracy, etc.
+- Find best model
+
+Monday, July 8th
+
+Accomplished:
+- Wrote script to store testing results in CSV files and determine correctness
+- Tested models on testing data
+- Calculated mAP and accuracy
+
+Need to Accomplish:
