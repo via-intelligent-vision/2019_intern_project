@@ -187,3 +187,9 @@ Accomplished:
 - Calculated mAP and accuracy
 
 Need to Accomplish:
+- Calculate IoU for each test image
+- Properly calculate and analyze mAP
+
+Tuesday, July 9th
+
+Accomplished:
