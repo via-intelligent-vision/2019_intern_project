@@ -100,6 +100,20 @@ This command uses the command line PYTHONPATH as opposed to exporting the variab
 ```
 $ python <TensorFlow models folder>/research/object_detection/model_main.py --pipeline_config_path=ssd_mobilenet_v2_coco.config --model_dir=output --num_train_steps=100000 --num_eval_steps=100
 ```
+Here the baseline result after trained by default as num_steps 200000 as example:
+* Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.767
+* Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.869
+* Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.862
+* Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+* Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.604
+* Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.768
+* Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.903
+* Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.904
+* Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.904
+* Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
+* Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.679
+* Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.905
+
 
 ### Convert the checkpoint to frozen graph (.pb file)
 
