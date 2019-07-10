@@ -193,3 +193,15 @@ Need to Accomplish:
 Tuesday, July 9th
 
 Accomplished:
+- Wrote script to calculate IoU values and store in csv
+- Calculated precision, recall, and IoU for faster RCNN ResNet101 and SSD Resnet50 FPN
+- Combined original 196 classes with 30 new classes
+
+Need to Accomplish:
+- Train and test entire dataset
+
+Wednesday, July 10th
+ 
+Accomplished:
+- Started training entire dataset
+- Wrote script to plot precision vs. recall
