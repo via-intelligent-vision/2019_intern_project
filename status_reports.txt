@@ -209,4 +209,11 @@ Accomplished:
 - Labeled and ran code to automatically draw bounding boxes for all images
 - Created TFRecords using 3 different models
 
+Need to Accomplish:
+- Finish training 226 classes
+- Compare to baseline model
+- Outline model from scratch
 
+Thursday, July 11th
+
+Accomplished:
