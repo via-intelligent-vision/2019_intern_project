@@ -214,6 +214,22 @@ Need to Accomplish:
 - Compare to baseline model
 - Outline model from scratch
 
-Thursday, July 11th
+Thursday-Friday, July 11-12th
 
 Accomplished:
+- Continued training entire dataset on SSD Resnet50 and Faster RCNN Resnet101
+- Calculated IoU and mAP
+- Drafted final presentation
+
+Need to Accomplish:
+- Finish training
+- Test pretrained models
+- Learn PyTorch and data augmentation changes
+
+Monday, July 15th
+
+Accomplished:
+- Finished creating Google presentation
+
+Need to Accomplish:
+- Fix training errors and redo
