@@ -234,3 +234,20 @@ Accomplished:
 Need to Accomplish:
 - Fix training errors and redo
 - Label original 16000+ images using Faster RCNN
+
+Tuesday, July 16th
+
+Accomplished:
+- Started re-labeling
+
+Need to Accomplish:
+- Finish re-labeling
+
+Wednesday, July 17th
+
+Accomplished:
+- Finished re-labeling
+
+Need to Accomplish:
+- Re-train at least 2 models on all images
+- Prove that our chosen model works better than the baseline
