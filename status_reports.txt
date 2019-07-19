@@ -168,9 +168,86 @@ Tuesday-Friday, July 2nd-5th
 
 Accomplished:
 - Expanded all datasets
+- Discovered accurate bounding box strategy
+- Ran program to draw bounding boxes for all training images
+- Compiled giant CSV
+- Created TFRecords
+- Trained SSD Resnet50 FPN and Faster RCNN Resnet101
+
+Need to Accomplish:
+- Test trained models on testing data
+- Calculate mAP, accuracy, etc.
+- Find best model
+
+Monday, July 8th
+
+Accomplished:
+- Wrote script to store testing results in CSV files and determine correctness
+- Tested models on testing data
+- Calculated mAP and accuracy
+
+Need to Accomplish:
+- Calculate IoU for each test image
+- Properly calculate and analyze mAP
+
+Tuesday, July 9th
+
+Accomplished:
+- Wrote script to calculate IoU values and store in csv
+- Calculated precision, recall, and IoU for faster RCNN ResNet101 and SSD Resnet50 FPN
+- Combined original 196 classes with 30 new classes
+
+Need to Accomplish:
+- Train and test entire dataset
+
+Wednesday, July 10th
+ 
+Accomplished:
+- Started training entire dataset
+- Wrote script to plot precision vs. recall
 - Found more accurate bounding box drawer
 - Labeled and ran code to automatically draw bounding boxes for all images
 - Created TFRecords using 3 different models
 
 Need to Accomplish:
-- Train using 3 different models
+- Finish training 226 classes
+- Compare to baseline model
+- Outline model from scratch
+
+Thursday-Friday, July 11-12th
+
+Accomplished:
+- Continued training entire dataset on SSD Resnet50 and Faster RCNN Resnet101
+- Calculated IoU and mAP
+- Drafted final presentation
+
+Need to Accomplish:
+- Finish training
+- Test pretrained models
+- Learn PyTorch and data augmentation changes
+
+Monday, July 15th
+
+Accomplished:
+- Finished creating Google presentation
+
+Need to Accomplish:
+- Fix training errors and redo
+- Label original 16000+ images using Faster RCNN
+
+Tuesday, July 16th
+
+Accomplished:
+- Started re-labeling
+
+Need to Accomplish:
+- Finish re-labeling
+
+Wednesday, July 17th
+
+Accomplished:
+- Finished re-labeling
+
+Need to Accomplish:
+- Re-train at least 2 models on all images
+- Prove that our chosen model works better than the baseline
